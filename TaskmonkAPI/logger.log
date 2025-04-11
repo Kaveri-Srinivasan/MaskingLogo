@@ -1,0 +1,1094 @@
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:06.116809
+  https://preprod.taskmonk.io/api/project/2605/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/2605/batch HTTP/11" 401 0
+  Fatal error in main loop
+Traceback (most recent call last):
+  File "C:\Users\kaveri.s\AppData\Local\Programs\Python\Python312\Lib\site-packages\taskmonk\utils\apiCall.py", line 41, in get
+    r.raise_for_status()
+  File "C:\Users\kaveri.s\AppData\Local\Programs\Python\Python312\Lib\site-packages\requests\models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 401 Client Error: Unauthorized for url: https://preprod.taskmonk.io/api/project/2605/batch
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:05.444915
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Filtering by date...
+  No batches found within the specified date range.
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:04.640144
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Filtering by date...
+  No batches found within the specified date range.
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:04.218772
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Filtering by date...
+  No batches found within the specified date range.
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:03.644263
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Checking for tasks within the date range...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:03.601576
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Checking for tasks within the date range...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:03.191199
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Checking for tasks within the date range...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:02.595571
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Downloading and filtering tasks...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '2c5e5e40-edb0-475f-af6e-68a70e462dbb', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_eoFWGpks9Kst7Te1_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2c5e5e40-edb0-475f-af6e-68a70e462dbb/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_eoFWGpks9Kst7Te1_output.csv?stream=true
+  Failed to process batch 17683: [Errno 13] Permission denied: 'C:\\Users\\kaveri.s\\taskmonk_batches\\batch_17683.csv'
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '33d51a58-fff5-4df3-a671-ff93c6d53373', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_aHTDR2DzPM0weiMb_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status HTTP/11" 200 75
+  resp = {'percentage': 20, 'completed': 4, 'rejected': 0, 'total': 20}
+  response = {'percentage': 20, 'completed': 4, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/33d51a58-fff5-4df3-a671-ff93c6d53373/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_aHTDR2DzPM0weiMb_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  No tasks in batch 17684 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': '504fa583-f21f-4f88-ac0a-607ef74cde38', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_KZm8ItP4apreYrFd_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/504fa583-f21f-4f88-ac0a-607ef74cde38/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_KZm8ItP4apreYrFd_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  No tasks in batch 18174 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '76a086a8-e39a-4660-92a0-4ccad3119f86', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_PgWGXwDndEVGcGmY_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/76a086a8-e39a-4660-92a0-4ccad3119f86/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_PgWGXwDndEVGcGmY_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  No tasks in batch 18175 match the date range. Deleting CSV...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:02.298311
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Downloading and filtering tasks...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '2ebf9f1a-5f4a-4076-b66a-c7bbe8804177', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_WwpEE2FcW27KBsyj_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2ebf9f1a-5f4a-4076-b66a-c7bbe8804177/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_WwpEE2FcW27KBsyj_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  No tasks in batch 17683 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_ZE3d1nHfF21y2qzx_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8cbdd8c2-7f6e-48b0-a276-5a02f32ca7c0/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_ZE3d1nHfF21y2qzx_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  No tasks in batch 17684 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': '61b3fdba-7694-464f-b714-b2384f78d4e9', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_OW7VHiDDYg0UsjFl_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/61b3fdba-7694-464f-b714-b2384f78d4e9/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/61b3fdba-7694-464f-b714-b2384f78d4e9/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/61b3fdba-7694-464f-b714-b2384f78d4e9/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/61b3fdba-7694-464f-b714-b2384f78d4e9/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_OW7VHiDDYg0UsjFl_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  No tasks in batch 18174 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': 'f84f8f55-4e01-42f9-b05d-e6e37a143d89', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_1KGHpdu5XKkIZclB_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status HTTP/11" 200 78
+  resp = {'percentage': 93, 'completed': 14, 'rejected': 0, 'total': 15}
+  response = {'percentage': 93, 'completed': 14, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/f84f8f55-4e01-42f9-b05d-e6e37a143d89/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_1KGHpdu5XKkIZclB_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  No tasks in batch 18175 match the date range. Deleting CSV...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:01.560643
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Downloading and filtering tasks...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '782653cd-f742-48dd-be16-1b42ad7dcfc5', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_qrun7wO32HN7G0Vn_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/782653cd-f742-48dd-be16-1b42ad7dcfc5/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_qrun7wO32HN7G0Vn_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  First few rows of batch 17683:
+    TaskId     Status  Level  ...       L2_U1_End_Time  L2_U1_Completion_Date L2_U1_Time_Taken(secs)
+0  7844102    Pending      1  ...                  NaN                    NaN                    NaN
+1  7844103  Completed      2  ...  27-12-2024 12:25:56             27-12-2024                  179.0
+2  7844104  Completed      2  ...  30-12-2024 11:18:51             30-12-2024                 1979.0
+3  7844105  Completed      2  ...  31-01-2025 16:34:32             31-01-2025                21893.0
+4  7844106  Completed      2  ...  31-01-2025 16:34:33             31-01-2025                   18.0
+
+[5 rows x 33 columns]
+  Batch 17683: 50 rows had invalid date formats.
+  Batch 17683: 50 total tasks, 0 tasks within date range.
+  No tasks in batch 17683 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '024a24af-a2e4-4903-9e81-257b1527d9cb', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_9IGdAHM0E1nFOiQT_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/024a24af-a2e4-4903-9e81-257b1527d9cb/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_9IGdAHM0E1nFOiQT_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  First few rows of batch 17684:
+    TaskId     Status  Level  ...       L2_U1_End_Time  L2_U1_Completion_Date L2_U1_Time_Taken(secs)
+0  7844243  Completed      2  ...  31-01-2025 16:36:12             31-01-2025                     24
+1  7844244  Completed      2  ...  31-01-2025 16:36:13             31-01-2025                      2
+2  7844245  Completed      2  ...  31-01-2025 16:36:14             31-01-2025                      2
+3  7844246  Completed      2  ...  31-01-2025 16:36:16             31-01-2025                      3
+4  7844247  Completed      2  ...  31-01-2025 16:36:17             31-01-2025                      2
+
+[5 rows x 33 columns]
+  Batch 17684: 20 rows had invalid date formats.
+  Batch 17684: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 17684 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': 'cb94dbca-e662-48ef-a621-cc13de2a4f00', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_gXMKKybFOzGBpeTm_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status HTTP/11" 200 79
+  resp = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  response = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/cb94dbca-e662-48ef-a621-cc13de2a4f00/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_gXMKKybFOzGBpeTm_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  First few rows of batch 18174:
+    TaskId   Status  Level  ...  L2_U1_End_Time  L2_U1_Completion_Date L2_U1_Time_Taken(secs)
+0  7869574  Pending      2  ...             NaN                    NaN                    NaN
+1  7869575  Pending      2  ...             NaN                    NaN                    NaN
+2  7869576  Pending      2  ...             NaN                    NaN                    NaN
+3  7869577  Pending      2  ...             NaN                    NaN                    NaN
+4  7869578  Pending      2  ...             NaN                    NaN                    NaN
+
+[5 rows x 33 columns]
+  Batch 18174: 20 rows had invalid date formats.
+  Batch 18174: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 18174 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '11da9652-b38f-47e9-ab02-d3f047f59c49', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_HWscYT53zuaFQjms_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/11da9652-b38f-47e9-ab02-d3f047f59c49/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_HWscYT53zuaFQjms_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  First few rows of batch 18175:
+    TaskId   Status  Level  ...  L2_U1_End_Time  L2_U1_Completion_Date L2_U1_Time_Taken(secs)
+0  7869594  Pending      2  ...             NaN                    NaN                    NaN
+1  7869595  Pending      2  ...             NaN                    NaN                    NaN
+2  7869596  Pending      2  ...             NaN                    NaN                    NaN
+3  7869597  Pending      2  ...             NaN                    NaN                    NaN
+4  7869598  Pending      2  ...             NaN                    NaN                    NaN
+
+[5 rows x 33 columns]
+  Batch 18175: 15 rows had invalid date formats.
+  Batch 18175: 15 total tasks, 0 tasks within date range.
+  No tasks in batch 18175 match the date range. Deleting CSV...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:00.905640
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Downloading and filtering tasks...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '2d24db14-9d75-4d71-a791-867d646ce803', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_uzwH1qOhcXWDdGug_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/2d24db14-9d75-4d71-a791-867d646ce803/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_uzwH1qOhcXWDdGug_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  Batch 17683: 50 rows had invalid date formats.
+  Batch 17683: 50 total tasks, 0 tasks within date range.
+  No tasks in batch 17683 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_L2dl25HzAD4HltG5_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/6f1ef907-f5bd-4bc2-8f42-cc166dadfd3c/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_L2dl25HzAD4HltG5_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  Batch 17684: 20 rows had invalid date formats.
+  Batch 17684: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 17684 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': 'a0a1fe7d-3e54-4df7-90c7-5d93379e301b', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_iQjYI5zVeJ7bdu9O_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/a0a1fe7d-3e54-4df7-90c7-5d93379e301b/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_iQjYI5zVeJ7bdu9O_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  Batch 18174: 20 rows had invalid date formats.
+  Batch 18174: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 18174 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '14a03a54-fd96-4a52-9a74-197fc97d8e0a', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_BXD7UwTBmFNgHQgL_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/14a03a54-fd96-4a52-9a74-197fc97d8e0a/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_BXD7UwTBmFNgHQgL_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  Batch 18175: 15 rows had invalid date formats.
+  Batch 18175: 15 total tasks, 0 tasks within date range.
+  No tasks in batch 18175 match the date range. Deleting CSV...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token 2lFKohCzOEJ25zIw expires at 2025-03-20 17:00:00.887590
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Retrieving date formats...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_vnaNS3POsKV0Oktg_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/9d8a17bd-c5ec-4014-b996-fe2ff4dfbbc4/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_vnaNS3POsKV0Oktg_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  Sample L1_U1_Completion_Date values from batch 17683:
+  Batch 17683: 1 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '32ab16f2-0c23-49e5-920d-0795006eeb03', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_pvzvhi8CMBjsHYC5_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/32ab16f2-0c23-49e5-920d-0795006eeb03/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_pvzvhi8CMBjsHYC5_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  Sample L1_U1_Completion_Date values from batch 17684:
+  Batch 17684: 0 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': 'ab09ed52-6454-47a4-b78e-5b2e43541ba6', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_PoRyvFfwW6k2uqm1_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status HTTP/11" 200 79
+  resp = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  response = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/ab09ed52-6454-47a4-b78e-5b2e43541ba6/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_PoRyvFfwW6k2uqm1_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  Sample L1_U1_Completion_Date values from batch 18174:
+  Batch 18174: 0 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer 2lFKohCzOEJ25zIw
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '3b32ee7c-d6ae-46f4-a988-2cd573dbaa6b', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_rusGUaUTc4iU9AEg_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/3b32ee7c-d6ae-46f4-a988-2cd573dbaa6b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/3b32ee7c-d6ae-46f4-a988-2cd573dbaa6b/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/3b32ee7c-d6ae-46f4-a988-2cd573dbaa6b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/3b32ee7c-d6ae-46f4-a988-2cd573dbaa6b/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_rusGUaUTc4iU9AEg_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  Sample L1_U1_Completion_Date values from batch 18175:
+  Batch 18175: 0 missing date values.
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 121
+  access_token ZUnhQ2usDcWqA5UG expires at 2025-03-20 18:05:12.474971
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Downloading and filtering tasks...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': '72b6c1c0-5cb4-4367-aefa-213d84177792', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_TZKq8VvWxsYqKSUq_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/72b6c1c0-5cb4-4367-aefa-213d84177792/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_TZKq8VvWxsYqKSUq_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  Batch 17683: 50 rows had invalid date formats.
+  Batch 17683: 50 total tasks, 0 tasks within date range.
+  No tasks in batch 17683 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': 'b8f5c83d-8422-48bb-8504-31a7b1fa75fe', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_ow8HMly2dtJwWpvD_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/b8f5c83d-8422-48bb-8504-31a7b1fa75fe/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b8f5c83d-8422-48bb-8504-31a7b1fa75fe/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/b8f5c83d-8422-48bb-8504-31a7b1fa75fe/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b8f5c83d-8422-48bb-8504-31a7b1fa75fe/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_ow8HMly2dtJwWpvD_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  Batch 17684: 20 rows had invalid date formats.
+  Batch 17684: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 17684 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': 'b10e3fb1-b375-4a98-9c71-a8234440f5a5', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_qH4bU05ZDSqPqhM4_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status HTTP/11" 200 79
+  resp = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  response = {'percentage': 95, 'completed': 19, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b10e3fb1-b375-4a98-9c71-a8234440f5a5/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_qH4bU05ZDSqPqhM4_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  Batch 18174: 20 rows had invalid date formats.
+  Batch 18174: 20 total tasks, 0 tasks within date range.
+  No tasks in batch 18174 match the date range. Deleting CSV...
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_14MXDmQh2CfTRfKh_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status HTTP/11" 200 78
+  resp = {'percentage': 33, 'completed': 5, 'rejected': 0, 'total': 15}
+  response = {'percentage': 33, 'completed': 5, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/8bbc5045-dd26-4aa5-b1b7-8f6e4fada51d/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_14MXDmQh2CfTRfKh_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  Batch 18175: 15 rows had invalid date formats.
+  Batch 18175: 15 total tasks, 0 tasks within date range.
+  No tasks in batch 18175 match the date range. Deleting CSV...
+  replaced https; url = https://preprod.taskmonk.io
+  Connecting with https://preprod.taskmonk.io
+  Refreshing access token
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/oauth2/token?grant_type=client_credentials&client_id=K1J6Vf9V6UuZcTvjkCtOUeetI6Dz1xiG&client_secret=EgZpJ9PPtq2l9quZCgFlppKgZg7gI3uHDV9tJx7fgjxIaetCclXQWOczfuojESRA HTTP/11" 200 119
+  access_token ZUnhQ2usDcWqA5UG expires at 2025-03-20 18:05:11.525260
+  https://preprod.taskmonk.io/api/project/4519/batch
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/batch HTTP/11" 200 412
+  resp = [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  [{'id': '17683', 'project_id': '4519', 'name': 'Catalog Attribute', 'priority': 0, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 50, 'complete': 49, 'pending': 1, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 49, 'complete': 49, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '17684', 'project_id': '4519', 'name': 'Non-Catalog Attribute', 'priority': -1, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false', 'mail_sent': 'true'}, 'batchState': 'COMPLETED'}, {'id': '18174', 'project_id': '4519', 'name': 'Catalog 20', 'priority': -2, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 20, 'complete': 20, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 20, 'complete': 0, 'pending': 20, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}, {'id': '18175', 'project_id': '4519', 'name': 'Non Catalog 15', 'priority': -3, 'comments': '', 'notifications': [], 'taskStats': {'id': '0', 'batchStats': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'errorCount': 0, 'skipped': 0}, 'levelStats': {'1': {'total': 15, 'complete': 15, 'pending': 0, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}, '2': {'total': 15, 'complete': 0, 'pending': 15, 'rejected': 0, 'disagreementScore': 0, 'skipped': 0}}}, 'metaData': {'batchDoc': '[]', 'ETA_value': '', 'golden_task_batch': 'false'}, 'batchState': 'ACTIVE'}]
+  Found 4 batches. Retrieving date formats...
+  https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17683/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17683/output/file?output_format=CSV HTTP/11" 200 197
+  resp = {'job_id': 'b67d5042-705b-46c0-bfa0-ceb2f81649d0', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_cPLDq9aNizsqo2W4_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 50}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/b67d5042-705b-46c0-bfa0-ceb2f81649d0/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  response = {'percentage': 100, 'completed': 50, 'rejected': 0, 'total': 50}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17683_Catalog+Attribute_cPLDq9aNizsqo2W4_output.csv?stream=true
+  Batch 17683 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17683.csv
+  Sample L1_U1_Completion_Date values from batch 17683:
+  Batch 17683: 1 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/17684/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/17684/output/file?output_format=CSV HTTP/11" 200 201
+  resp = {'job_id': '7e10b963-3658-4d22-ad2d-45a8d0f8fabe', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_lrUqYpmDYtYpSHpr_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/7e10b963-3658-4d22-ad2d-45a8d0f8fabe/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_17684_Non-Catalog+Attribute_lrUqYpmDYtYpSHpr_output.csv?stream=true
+  Batch 17684 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_17684.csv
+  Sample L1_U1_Completion_Date values from batch 17684:
+  Batch 17684: 0 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18174/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18174/output/file?output_format=CSV HTTP/11" 200 190
+  resp = {'job_id': '835bd0fa-7e2b-4391-8888-5a047fdedc78', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_D6lGeGzPDrLN6Guj_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status HTTP/11" 200 78
+  resp = {'percentage': 90, 'completed': 18, 'rejected': 0, 'total': 20}
+  response = {'percentage': 90, 'completed': 18, 'rejected': 0, 'total': 20}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/835bd0fa-7e2b-4391-8888-5a047fdedc78/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  response = {'percentage': 100, 'completed': 20, 'rejected': 0, 'total': 20}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18174_Catalog+20_D6lGeGzPDrLN6Guj_output.csv?stream=true
+  Batch 18174 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18174.csv
+  Sample L1_U1_Completion_Date values from batch 18174:
+  Batch 18174: 0 missing date values.
+  https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV, {"field_names": [], "completedOnly": false}
+  -----------START-----------
+POST https://preprod.taskmonk.io/api/project/4519/batch/18175/output/file?output_format=CSV
+Content-Type: application/json
+Authorization: Bearer ZUnhQ2usDcWqA5UG
+Content-Length: 43
+
+{"field_names": [], "completedOnly": false}
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "POST /api/project/4519/batch/18175/output/file?output_format=CSV HTTP/11" 200 194
+  resp = {'job_id': '3c0b976a-a6ba-4124-8a39-b5ffcf0e734b', 'file_url': 'https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_tNh8Drdnz9M5MzI0_output.csv?stream=true'}
+  https://preprod.taskmonk.io/api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status HTTP/11" 200 71
+  resp = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  response = {'percentage': 0, 'completed': 0, 'rejected': 0, 'total': 15}
+  waiting for job to complete
+  https://preprod.taskmonk.io/api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status
+  Starting new HTTPS connection (1): preprod.taskmonk.io:443
+  https://preprod.taskmonk.io:443 "GET /api/project/4519/job/3c0b976a-a6ba-4124-8a39-b5ffcf0e734b/status HTTP/11" 200 75
+  resp = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  response = {'percentage': 100, 'completed': 15, 'rejected': 0, 'total': 15}
+  file_url = https://preprod.taskmonk.io/api/project/4519/outputFile/download/Batch_18175_Non+Catalog+15_tNh8Drdnz9M5MzI0_output.csv?stream=true
+  Batch 18175 output saved at C:\Users\kaveri.s\taskmonk_batches\batch_18175.csv
+  Sample L1_U1_Completion_Date values from batch 18175:
+  Batch 18175: 0 missing date values.
